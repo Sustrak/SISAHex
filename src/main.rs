@@ -8,7 +8,6 @@ use std::io::{Read, Write};
 use regex::Regex;
 use std::collections::HashMap;
 
-
 use instruction::{InsDic, Instruction, init_ins_dic};
 
 fn create_hex(pos: &Instruction, s: &mut String, h: &HashMap<&str, i16>) {
